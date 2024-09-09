@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотоальбом Алтай 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Мой Фотоальбом</h1>
+
+    <!-- Галерея с заранее добавленными изображениями -->
+    <div class="gallery" id="gallery">
+        <img src="images\photo_1.jpg" alt="Photo 1" data-caption="село Акташ. Утренний туман" class="thumbnail">
+        <img src="images\photo_2.jpg" alt="Photo 2" data-caption="озеро на пути на перевал Кату-Ярык" class="thumbnail">
+        <img src="images\photo_3.jpg" alt="Photo 3" data-caption="Катунь. Манжерок" class="thumbnail">
+        <img src="images\photo_4.jpg" alt="Photo 4" data-caption="вид с перевала Кату-Ярык" class="thumbnail">
+        <img src="images\photo_5.jpg" alt="Photo 5" data-caption="смотровая площадка в с. Манжерок" class="thumbnail">
+        <img src="images\photo_6.jpg" alt="Photo 6" data-caption="перевал Кату-Ярык и вид на Чулышманскую долину" class="thumbnail">
+        <img src="images\photo_7.jpg" alt="Photo 7" data-caption="вид на северо-Чуйский хребет" class="thumbnail">
+        <img src="images\photo_8.jpg" alt="Photo 8" data-caption="село Ая, гора Бабырган" class="thumbnail">
+        <img src="images\photo_9.jpg" alt="Photo 9" data-caption="Марс 1" class="thumbnail">
+        <img src="images\photo_10.jpg" alt="Photo 10" data-caption="Марс 2" class="thumbnail">
+    </div>
+<br> <h3>
+    <h2>Алтай — Жемчужина Сибири</h2>
+    Добро пожаловать в фотоальбом, посвящённый одному из самых живописных уголков России — Алтаю. Здесь, среди бескрайних горных хребтов, кристально чистых озёр и могучих рек, природа предстает во всей своей первозданной красе. Этот край известен своим богатым биоразнообразием, древними пещерами, величественными водопадами и уникальной культурой коренных народов. В этом фотоальбоме я покажу свою поездку по своему родному краю и представлю самые красивые места, которые мне удалось запечатлеть этим летом.
+    
+    <div align="left">
+        <br>В этом альбоме вы увидите:
+      </div>
+    
+    <li>Заснеженные вершины Алтайских гор, где небо сливается с горами.</li>
+    <li>Чистейшие озёра, отражающие небеса.</li>
+    <li>Зелёные долины с бурными реками, вдоль которых расположены старинные деревни и кочевые стоянки.</li>
+    
+    <h3><br>Прогуляйтесь по этим страницам, почувствуйте величие Алтая и его бесконечную гармонию с природой.</h3></h3>
+     <!-- Модальное окно для полноразмерных изображений -->
+     <div id="modal" class="modal">
+        <span class="close" id="close">&times;</span>
+        <span class="prev" id="prev">&lt;</span>
+        <span class="next" id="next">&gt;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption" class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
